@@ -1,6 +1,6 @@
 # CPO_for_Electricity_Market
 
-The followings are the dataset and the codes for the paper entitled "Improving Electricity Market Economy via Closed-Loop Predict-and-Optimize" by Xianbang Chen, Yikui Liu, and Lei Wu.
+The followings are the dataset and the codes for the paper entitled "Towards Improving Operation Economics: A Bilevel MIP-Based Closed-Loop Predict-and-Optimize Framework for Prescribing Unit Commitment" by Xianbang Chen, Yikui Liu, and Lei Wu.
 
 To show our modifications on IEEE 118-bus system, we plot a map. Just check it out! [fig05.pdf](https://github.com/asxadf/CPO_for_Electricity_Market/files/9438507/fig05.pdf)
 
