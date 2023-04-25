@@ -1,4 +1,4 @@
-# CPO_for_Electricity_Market
+# Bilevel MIP-based CPO
 
 The followings are the dataset and the codes for the paper entitled "Towards Improving Operation Economics: A Bilevel MIP-Based Closed-Loop Predict-and-Optimize Framework for Prescribing Unit Commitment" by Xianbang Chen, Yikui Liu, and Lei Wu.
 
