@@ -89,31 +89,6 @@ for s = 1:NT
     Load_Net_SUM_Tra_ACT(:, s) = Load_Net_SUM_All_ACT(:, Day_Tra_Selected(s));
     Load_Net_SUM_Tra_DAF(:, s) = Load_Net_SUM_All_DAF(:, Day_Tra_Selected(s));
 end
-% Load_Net_SUM_AE  = abs(Load_Net_SUM_All_ACT - Load_Net_SUM_All_DAF);
-% Load_Net_SUM_AE  = Load_Net_SUM_AE(:, Day_Dispatch-NH : Day_Dispatch-1);
-% Load_Net_SUM_APE = Load_Net_SUM_AE./Load_Net_SUM_All_ACT(:, Day_Dispatch-NH : Day_Dispatch-1);
-
-% Load_Net_SUM_OE = Load_Net_SUM_All_DAF - Load_Net_SUM_All_ACT;
-% Load_Net_SUM_OE = Load_Net_SUM_OE(:, Day_Dispatch-NH : Day_Dispatch-1);
-% Load_Net_SUM_OE(Load_Net_SUM_OE < 0) = 0;
-% Load_Net_SUM_OPE = Load_Net_SUM_OE./Load_Net_SUM_All_ACT(:, Day_Dispatch-NH : Day_Dispatch-1);
-% Load_Net_SUM_OPE = Load_Net_SUM_OPE(:);
-% Load_Net_SUM_OPE(Load_Net_SUM_OPE == 0) = [];
-
-% Quantile_For_RH = quantile(Load_Net_SUM_OPE, 0.75);
-% disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
-% for t = 1:Num_Hour
-%     Quantile_For_RC(t, 1) = quantile(Load_Net_SUM_APE(t, :), 0.75);
-%     disp(['Hour', num2str(t), ': Non-Spinning reserve predictor bound is ',  num2str(Quantile_For_RC(t, 1))]);
-% end
-% if max(Quantile_For_RC(:)) >= 0.15
-%     Quantile_For_RC = 0.15;
-% end
-% disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
-% disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
-% disp(['Final spinning reserve predictor bound is ', num2str(Quantile_For_RH)]);
-% disp(['Final non-spinning reserve predictor bound is ',  num2str(max(Quantile_For_RC(:)))]);
-% disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 %
 %% ------------------- Outer Training & ED: Variable ------------------- %%
 % Predictors
