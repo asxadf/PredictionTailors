@@ -1,8 +1,8 @@
 # Bilevel MIP-based CPO
 
-The followings are the dataset and the codes for the paper entitled "Towards Improving Operation Economics: A Bilevel MIP-Based Closed-Loop Predict-and-Optimize Framework for Prescribing Unit Commitment" by Xianbang Chen, Yikui Liu, and Lei Wu.
+Following are the dataset and the codes for the paper entitled "Towards Improving Unit Commitment Economics: An Add-On Tailor for Renewable Energy and Reserve Predictions" by Xianbang Chen, Yikui Liu, and Lei Wu.
 
-To show our modifications on IEEE 118-bus system, we plot a map. Just check it out! [fig05.pdf](https://github.com/asxadf/CPO_for_Electricity_Market/files/9438507/fig05.pdf)
+To show our modifications to the IEEE 118-bus system, we plot a map. Just check it out! [fig05.pdf](https://github.com/asxadf/CPO_for_Electricity_Market/files/9438507/fig05.pdf)
 
 We believe it is meaningful and helpful to enable the code open-access. So we upload the codes here. It requires MATLAB as the platform, GUROBI as the solver, and YALMIP to call GUROBI.
 
